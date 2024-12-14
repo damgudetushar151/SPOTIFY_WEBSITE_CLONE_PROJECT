@@ -1,0 +1,135 @@
+
+
+body {
+    background-color: #000; /* Black color */
+    color: #fff; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.border{
+border: 2px black solid;
+border-radius: 50%;
+    
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    /* background:black; */
+    color: white;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(8, 8, 8);
+   
+}
+.logo-icon{
+   background-image: url("spotify-favicon-icon-img.png");
+   background-size: cover;
+   height: 40px;
+   width: 40px;
+   color: white;
+   background-color:black;
+   margin-left: -130px;
+
+  
+}
+
+
+
+.logo-icon-home{
+    background-image: url("home-img-removebg-preview.png");
+    background-size: contain;
+    height: 22px;
+    width: 25px;
+   
+   
+    margin-right: -330px;
+    color: #fff;
+
+
+    background-color: #474646;
+    border-radius: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+     
+     
+
+ 
+    
+}
+
+
+
+
+.input{
+  
+   
+  
+    color: rgb(110, 109, 109);
+    background-color:rgb(82, 80, 80);
+    height: 23px;
+    width: 300px;
+    background-image: url("download-removebg-preview.png");
+    background-size: contain ;
+    background-repeat: no-repeat;
+     border-radius: 20px; 
+   border-color: black; 
+   margin-left:220px;
+   padding-top: 5px;
+   padding-right: 190px;
+
+   
+ }
+
+ 
+
+::placeholder{
+     padding-left: 50px; 
+    /* padding-right: 100px; */
+    
+    color: #b8b4b4;
+    /* font-weight: bolder; */
+    font-size: 1.2rem;
+}
+
+
+
+.singnup{
+    background-color: black;
+    color: #bebbbb;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin-right: -100px;
+
+}
+
+.singnup:hover{
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.login{
+    background-color:white;
+    color:black;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    border-radius: 35%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -20px;
+ 
+    margin-right: -100px;
+
+
+}
+
+
+
+
+
